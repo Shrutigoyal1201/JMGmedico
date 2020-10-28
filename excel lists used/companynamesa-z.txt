@@ -1,0 +1,130 @@
+<li>ABIL HEALTH CARE  </li><hr>
+<li>ACCORD PHARMACEUTICALS </li><hr>  
+<li>ACULIFE     </li><hr>
+<li>AISHWARYA    </li><hr>
+<li>ALBERT DAVID LIMITED  </li><hr>
+<li>ALCHEMIST LTD.   </li><hr>
+<li>ALKEM LABORATORIES LTD  </li><hr>
+<li>ALPHA BIOCEUTICALS   </li><hr>
+<li>ALVIS MEDI SYNTHESIS PVT.LTD </li><hr>
+<li>ALVO LIFE SCIENCES  </li><hr>
+<li>AMAZING RESEARCH   </li><hr>
+<li>ANGLO SWIFT   </li><hr>
+<li>APEX    </li><hr>
+<li>ASHLEY PHARMATECH PVT.LTD.  </li><hr>
+<li>ASKON HEALTHCARE   </li><hr>
+<li>ASSURE S.PVT.L   </li><hr>
+<li>AVNI PHARMA   </li><hr>
+<li>AXA PARENTRALS LTD.  </li><hr>
+<li>AZINE HEALTHCARE PVT.LTD.  </li><hr>
+<li>B D INDIA (P)LTD. </li><hr>
+<li>BEIERSDORF AG GERMANY  </li><hr>
+<li>BIOMEDICA LABORATORIES.PVT.LTD.</li><hr>   
+<li>BPL    </li><hr>
+<li>BUDDS BUDDY   </li><hr>
+<li>BULLFORD    </li><hr>
+<li>CACHET PHARMACEUTICAL PVT. LTD. </li><hr>
+<li>CADILA PHARMACEUTICALS LTD.  </li><hr>
+<li>CENTURY DRUGS PVT. LTD.</li><hr> 
+<li>CHIRON    </li><hr>
+<li>CIPCO PHARMACEUTICALS.   </li><hr>
+<li>CIPLA       </li><hr>
+<li>CONCEPT LABORATORIES PVT.LTD.  </li><hr>
+<li>CONSET PHARMA PVT.LTD.  </li><hr>
+<li>DAGNAL PHARMACEUTICALS.   </li><hr>
+<li>DANISH HEALTH CARE P.UJJIAN </li><hr>
+<li>DISPOVAN    </li><hr>
+<li>DWD PHARMACEUTICALS LIMITED  </li><hr>
+<li>Dr.MOREPEN LIMITED   </li><hr>
+<li>EASTERN HEALTH CARE  </li><hr>
+<li>ELDER PROJECTS LTD.  </li><hr>
+<li>ELEMENTIS PVT.LTD   </li><hr>
+<li>EMAAR DIVISION OF HINDUKUSH BIPRODUCTS.</li><hr>
+<li>ENDOLABS LIMITED   </li><hr>
+<li>EUPHORIA FORMULATIONS PVT.LTD.</li><hr>  
+<li>FAB INDIA.   </li><hr>
+<li>FUSION FIRST   </li><hr>
+<li>G&G PHARMACY   </li><hr>
+<li>GAJMARK    </li><hr>
+<li>GERMAN REMEDIES   </li><hr>
+<li>GLISTER PHARMACEUTICALS   </li><hr>
+<li>GROWMAX MEDICARE PVT. LTD. </li><hr>
+<li>GSK GLAXO SMITH KLINE PHARMACEUTICALS</li><hr>
+<li>HARSH HEALTHCARE   </li><hr>
+<li>HERB EDGE   </li><hr>
+<li>HIGH TECH PHARMA  </li><hr>
+<li>IND-SWIFT LIMITED   </li><hr>
+<li>INDIN HANDLOOM PRO.  </li><hr>
+<li>INDKUS BIOTECH INDIA  </li><hr>
+<li>INDO-GREEK    </li><hr>
+<li>INTAS PHARMACEUTICAL LTD</li><hr>  
+<li>IPCA    </li><hr>
+<li>JAY ELL HEALTHCARE PVT.LTD.</li><hr> 
+<li>JOHN & JOHAN  </li><hr>
+<li>KNOLL HEALTHCARE PVT.LTD</li><hr>  
+<li>LABORATE    </li><hr>
+<li>LEDER-NEXT    </li><hr>
+<li>LEDERLE PHARMA LTD.  </li><hr>
+<li>LEEFORD HEALTHCARE LTD.</li><hr>  
+<li>LUPIN LTD.   </li><hr>
+<li>LYKA    </li><hr>
+<li>M.D.H.PVT.LMT.    </li><hr>
+<li>MAPRO LIFE SCIENCE  </li><hr>
+<li>MAXXIO (ALKEM DIVISION)  </li><hr>
+<li>MEDLEY PHARMACEUTICALS LTD  </li><hr>
+<li>MEHTA    </li><hr>
+<li>MERCK LIMITED   </li><hr>
+<li>MODI ANTIBIOTICS   </li><hr>
+<li>MPIOUS INNOVATIVE HEALTH CARE LLP</li><hr>
+<li>NEM LABORATORIES PVT. LTD </li><hr>
+<li>NEUTEC HEALTHCARE PVT LTD </li><hr>
+<li>NIKEM DRUGS PVT.LTD </li><hr> 
+<li>NIRLIFE    </li><hr>
+<li>NUKIND HEALTHCARE PVT.LTD. </li><hr> 
+<li>NULIFE    </li><hr>
+<li>ORANGE HEALTHCARE LTD </li><hr> 
+<li>P&G PHARMA   </li><hr>
+<li>PARK-BENZ LABORATORIES   </li><hr>
+<li>PARTH REMEDIES   </li><hr>
+<li>PCI (PHARMA CORP.INC.PVT.LIMITED)</li><hr>  
+<li>PRINCE MEDICAL   </li><hr>
+<li>PROLINE    </li><hr>
+<li>QUEST LABORATORIES PVT.LTD.  </li><hr>
+<li>RAJ MEDICARE (INDIA)</li><hr>  
+<li>RANBAXY    </li><hr>
+<li>ROUSSEL LABORATORIES PVT.LTD.  </li><hr>
+<li>SAHAJANAND HEALTH CARE </li><hr> 
+<li>SALES HOUSE   </li><hr>
+<li>SAM-KEM    </li><hr>
+<li>SAMSON LABORATORIES.PVT.LTD.   </li><hr>
+<li>SANOFI INDIA LIMITED  </li><hr>
+<li>SARABHAI CHEMICALS.   </li><hr>
+<li>SGS PHARMACEUTICAL PVT.LTD.  </li><hr>
+<li>SHIVAM INDUSTRIES   </li><hr>
+<li>SHRI DURGA SURGICAL</li><hr>  
+<li>SKF    </li><hr>
+<li>SOCRUS PHARMACEUTICS.</li><hr>   
+<li>SOFT MEDICAPS LTD.  </li><hr>
+<li>SPECTRUM    </li><hr>
+<li>SPPL    </li><hr>
+<li>SRIDHARA LIFESCIENCE PVT. LTD.</li><hr> 
+<li>STERIS HEALTHCARE   </li><hr>
+<li>SUPER PHARMA PRODUCTS  </li><hr>
+<li>SUPERCURE BIOTECH PVT.LTD.  </li><hr>
+<li>SUPREX LABORATORIES   </li><hr>
+<li>SYNCOM HEALTHCARE LIMITED  </li><hr>
+<li>THEMIS HEALTHCARE.   </li><hr>
+<li>THEOGEN PVT. LTD.  </li><hr>
+<li>THERMOPLAST    </li><hr>
+<li>TORRENT    </li><hr>
+<li>TROIKAA PHARMACEUTICALS.   </li><hr>
+<li>UNIPLUS BIOTECH PVT.LTD.  </li><hr>
+<li>VINTOCHEM PHARMACEUTICAL   </li><hr>
+<li>WELLCHEM PHARMACEUTICALS   </li><hr>
+<li>WILL IMPEX PHARMACHEM PVT.LTD.</li><hr> 
+<li>WOCKHARDT LIMITED   </li><hr>
+<li>ZEE DRUGS.   </li><hr>
+<li>ZENLABS ETHICA LIMITED </li><hr> 
+<li>ZETA LIFESCIENCES P.LTD.</li><hr>  
+<li>ZYDUS HEALTHCARE LTD.</li><hr>
+  

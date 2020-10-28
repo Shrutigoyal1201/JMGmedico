@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JMG</title>
+	<!-- CSS only -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- JS, Popper.js, and jQuery -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <!-- CSS only -->
+	  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="icon" type="" href="img/logo10.jpg" />
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		#loading
+		{
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			background: #fff url('https://i.pinimg.com/originals/a2/5c/ae/a25cae304293292540c8a8ef3952da17.gif')
+			no-repeat center;
+			z-index: 99999;
+		}
+		p
+		{	text-align: justify;
+			color: #6c757d;
+			font-size: 15px;
+			line-height: 27px;
+			text-align: center;
+		}
+
+		.n{
+        background-image: linear-gradient(to right,#1e3131,#69d6d6);
+     	}
+  
+    	.navbar-nav li a
+		{
+		margin-right: 15px;
+		font-weight: 600;
+		float: right;
+		text-align: left;
+		}
+		.logo
+		{
+			margin:-19% -25%;
+		}
+		.dropdown:hover>.dropdown-menu 
+		{
+		  display: block;
+		  }
+
+		.dropdown>.dropdown-toggle:active 
+		{
+		  /*Without this, clicking will make it sticky*/
+		    pointer-events: none;
+		}
+		#banner
+		{
+			background-image:linear-gradient(to right,#1e3131,#69d6d6);
+			color: #fff;
+			padding-top: 4%;
+			height: 556px;
+		}
+		
+		.promo-title
+		{
+			font-size: 80px;
+			font-weight: 600;
+		
+		}
+	
+		.b2{
+			width: 100%;
+			height: 226px;
+		}
+		.b3
+		{
+			width: 100%;
+			height:560px;
+		}
+		.b3mob
+			{	
+				display: none;
+			}
+		.carousel-caption{
+		font-family: prague;
+    	color: #fff;
+    	position: absolute;
+    	}
+    	.cc1
+    	{
+    	padding: 45% 0% 0% 60%;
+  		}
+  		.cc2
+  		{
+  			line-height: 15px;
+		    margin-left: 300px;
+  		}
+  		b{
+   		 font-size: 25px;
+   		 font-weight: 600;
+
+  		}
+  			.itop
+  		{
+  			width:300px;
+  			height: 325px;
+  			margin-left: 20%;
+  		}
+  		.ibot
+  			{
+  			width:200px;
+  			height: 200px;
+  			text-align: center;
+  			margin-left: 20%;
+  			}
+  		.x
+		{	
+		box-shadow: 0 5px 20px;
+		border: 2px;
+		margin-bottom: 3%;
+		}
+  		.surimg
+		{
+			width: 24%;
+		}
+		.box
+		{	box-shadow: 0 5px 20px;
+			
+			padding: 4%; 
+		}
+		.c
+  			{   
+  				box-shadow: 0 5px 10px;
+  				height: 300px;
+  				width: 20%;
+  				margin-left: -1px;
+  				
+    		margin-bottom: 20px;
+  			}
+		.i4
+		{
+			padding:15%;
+			margin-left: -10px;
+			margin-bottom: 5px;
+			width: 200px;
+			height: 200px;
+		}
+
+
+			/*.img
+		{
+			width: 458px;
+			height: 225px;
+			margin-left: -4.5px;
+		}*/
+		
+		.inner
+		{
+		overflow: hidden;
+		}
+		.inner img{
+			transition: all 1.5s ease;
+		}
+		.inner:hover img{
+			transform: scale(1.5);
+			
+		}
+		@media (max-width: 640px)
+		{
+		.b2 {
+		    margin-top: 20px;
+		    width: 100%;
+		    height: 130px;
+		}		
+		}
+
+		@media(max-width: 700px)
+		{	
+			.b2 {
+				
+				    width: 100%;
+				    height: 130px;
+				}
+			.b3{
+				display: none;
+			}
+			.b3mob
+			{	
+				display: block;
+				height: 556px;
+			}
+			.promo-title
+			{	text-align: center;
+				padding: 4% 0% 0% 0%;
+				font-size: 23px;
+				font-weight: 600;
+			}
+			p{
+				font-size: 10.5px;
+				line-height: 19px;
+			}
+			b{
+   		 		font-size: 16px;
+   		 		font-weight: 600;
+			 }
+			 .cc2
+  			{
+  			line-height: 15px;
+		    margin-left: 158px;
+		    margin-right: -30px;
+  			}
+  	
+  			.itop
+  			{
+  			width:85%;
+  			text-align: center;
+  			margin-left: 11%;
+  			}
+  			.ibot
+  			{
+  			width: 60%;
+		    text-align: center;
+		    margin-left: 20%;
+  			}	
+  			h2
+  			{
+  				font-size: 20px;
+  			}
+		.c{
+  			box-shadow: 0 5px 10px;
+    		width: 125px;
+    		height: 200px;
+    		margin-left: 10px;
+    		margin-bottom: 20px;
+		}
+		.i4
+		{	
+			padding: 25% 12% 20% 18%;
+		    width: 125%;
+		    height: 75%;
+		}
+		
+	}
+	@media(max-width: 500px)
+	{
+		.c{
+			box-shadow: 0 5px 10px;
+		    width: 106px;
+		    height: 190px;
+		    margin-left: 10px;
+		    margin-bottom: 20px;
+			}
+		.i4 {
+		    padding: 25% 0% 20% 18%;
+		    width: 133%;
+		    height: 75%;
+			}
+	}
+		.footer
+		{ 
+			background-image:linear-gradient(to right,#69d6d6,#1e3131);
+			color: #fff;
+			padding: 2% 10%;
+
+		}
+
+	
+	</style>
+
+	<script>
+	$(document).ready(function(){
+		$('#mymodel').modal('show');
+	});
+  
+	</script>
+</head>
+<body onload="myFunction()">
+	<div id="loading"></div>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top n">
+		<a href="index.html" class="navbar-brand">
+			<img class="img-fluid logo" src="img/logo10.jpg" width="65px">		
+   		</a><!--anchor tag end-->
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+
+	<div class="collapse navbar-collapse" id="a">
+
+	<ul class="navbar-nav ml-auto">
+		<li>
+			<a href="index.html" class="nav-link text-light">HOME</a>
+		</li>
+		<li>
+			<a href="about.html" class="nav-link text-light">ABOUT US</a>
+		</li>
+		<li>
+			<a href="ourproducts.html" class="nav-link text-light ">OUR PRODUCTS</a>
+		</li>
+		<li>
+			<a href="brands.html" class="nav-link text-light">BRANDS AVAILABLE</a>
+		</li>
+		 </li>
+		<li>
+			<a href="contact.html" class="nav-link text-light">CONTACT US</a>
+		</li>
+		<li class="nav-item dropdown">
+        	<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          	CONNECT NOW!
+        	</a>
+			<div class="dropdown-menu"aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="tel:9144480962">
+				 	<i class="fa fa-phone" aria-hidden="true" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Call us
+				</a>
+				<a class="dropdown-item" href="https://wa.link/6hjrok">
+					<i class="fa fa-whatsapp" aria-hidden="true" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Chat with us
+				</a>
+				<a class="dropdown-item" href="https://www.instagram.com/jaimaagumano/">	
+					<i class="fa fa-instagram" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Join us on instagram
+				</a>
+				<a class="dropdown-item" href="https://m.facebook.com/HealthandmedicineatJMG/?tsid=0.3179322746523827&source=result">
+					<i class="fa fa-facebook-official" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Join us on facebook	
+				</a>
+				<a class="dropdown-item" href="mailto:sales.jaimaagumano@gmail.com">
+				 	<i class="fa fa-google" aria-hidden="true" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Send us an Email
+				</a>
+			</div>
+		</li>		
+	</ul><!--list tag end-->
+	</div>	
+	</nav><!--nav end-->
+
+	<div class="carousel slide" data-ride="carousel" id="myslide">
+
+  		<div class="carousel-inner">
+
+	     <div class="carousel-item active" data-interval="6000">
+           <section id="banner">
+		<div class="container-fluid">
+		 <div class="row">
+		  <div class="col-md-12">
+		 	<img  src="img/ban5.jpg" alt="Second slide" class="img-fluid b2">
+		  </div>
+		  <div class="col-md-12">
+			<h1 class="promo-title">Jai Maa Gumano Medico & Surgico</h1>
+			<p style="color: white;text-align: justify;">Jai Maa Gumano Medico & Surgico, Gwalior is a top player in the category of Medical Products and Equipments. Our well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Gwalior. Over the course of our journey,our business has established a firm foothold in pharmaceutical industry. The belief that customer's satisfaction is as important as our products and services, have helped us garner a vast base of customers, which continues to grow by the day. We employ individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, we aim to expand our line of products and services and cater to a larger client base. In Gwalior, our establishment occupies a prominent location at Huzrat Pull. It is an effortless task in commuting to our establishment as there are various modes of transport readily available.</p>
+		   </div>
+		</div><!--row end-->
+		<br>
+		</div><!--container end-->
+		</section>  
+        </div>
+        <div class="carousel-item " data-interval="4000">
+        	<img src="https://mumzonepregnancytips.files.wordpress.com/2014/07/cropped-hd-happy-baby-happy-mom-banner.jpg" class="img-fluid b3">
+        	<img src="img/baby.jpg" class="img-fluid b3mob">
+        	
+        	<div class="carousel-caption cc1">
+         		<h1 class="promo-title text-dark"> WE CARE </h2>
+			</div>
+        </div>
+
+		 <div class="carousel-item " data-interval="4000">
+        	<img src="img/ayur.jpg" class="img-fluid b3">
+        	<img src="img/ayurmob.jpg" class="img-fluid b3mob">
+        	
+        	<div class="carousel-caption cc2">
+         		<h1 class="promo-title text-dark">Products and Services offered:</h1><br>
+			<p style="text-align: justify;">
+				We offer a wide range of products and services to cater to the varied requirements of our customers. The staff at our establishment are courteous and prompt at providing any assistance. We readily answer any queries or questions that you may have. This establishment is functional from 10:00 - 21:30.
+
+				Please scroll to the top menu to explore more, or get our contact details.</p>
+			</div>
+        </div>
+
+
+        <div class="carousel-item " data-interval="2000">
+			<img  src="img/ban3.jpg" alt="Third" class="img-fluid b3">
+			<img  src="img/b3mob.jpg" alt="Third" class="img-fluid b3mob">
+         	<div class="carousel-caption">
+         		<b>“Let food be thy medicine and medicine be thy food.”
+				― Hippocrates</b>
+			</div>
+        </div>
+
+		</div><!-- end carousel-inner-->
+	<ul class="carousel-indicators">
+     <li data-target="#myslide" data-slide-to="0" class="active"></li>
+     <li data-target="#myslide" data-slide-to="1" class=""></li>
+     <li data-target="#myslide" data-slide-to="2" class=""></li>
+	 <li data-target="#myslide" data-slide-to="3" class=""></li>
+    </ul>
+ 	<a href="#myslide" data-slide="prev" class="carousel-control-prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+  
+    <a href="#myslide" data-slide="next" class="carousel-control-next">
+       <span class="carousel-control-next-icon"></span>
+     </a> 
+</div><!--carousel slide end-->
+
+<div>
+	<br><br>
+	<h2 class="text-center">Covid Care</h2>
+	<br><br>
+	<div class="container">
+			<div class="row">
+				<div class="col-md-6 inner">
+					<div class="card text-center x">
+						<img src="https://image.freepik.com/free-vector/medical-black-mask-isolated-white-background-doctor-mask-corona-virus-protection-realistic-protective-medical-face-mask-front-side-medical-mask-doctors-patients_7714-723.jpg" class="img-fluid itop">
+						<div class="card-body">
+							<h3>Masks</h3>
+							<p>Available in wide ranges ( from surgical to fashionable we have all your needs covered )</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				<div class="col-md-6 inner">
+					<div class="card text-center x">
+						<img src="https://5.imimg.com/data5/CG/VV/VD/SELLER-87556224/dettol-hand-sanitizer-500x500.jpg" class="img-fluid itop">
+						<div class="card-body">
+							<h3>Hand Sanitizers</h3>
+							<p>We have all sorts of varieties in hand sanitizers including the most promising brands like dettol, lifeboy, Dr.morepen, etc</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				
+			</div><!--row end-->
+			<div class="row">
+				<div class="col-md-6 inner">
+					<div class="card text-center x">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ30tulg5ZlC9VhRyrtmfpnBFPD5u18iahRQw&usqp=CAU"class="img-fluid itop">
+						<div class="card-body">
+							<h3>Gloves</h3>
+							<p>Keep Yourself safe and your hands free from virus with our varied range of covid care gloves, fabricated with utter perfection that keeps your hands protected and viruses out of your system ;)</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				<div class="col-md-6 inner">
+					<div class="card text-center x">
+						<img src="https://www.bigvalueshop.com/wp-content/uploads/2020/04/Generic-Laminated-Water-Proof-PPE-Kit.jpg" class="img-fluid itop">
+						<div class="card-body">
+							<h3>PPE Kit</h3>
+							<p>In this tough covid situation we stand by your side.
+							We provide you with personal protective equipment (PPE kit) to prevent the invasion of virus<br><br></p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+			</div><!--row end-->
+		</div>	
+
+<div class="container"><!--container2 start-->
+	<br><br>
+	<h2 class="text-center">Our Surgical Range</h2>
+	<br><br>
+
+	<div class="row"><!--row2 start-->
+		<div class="carousel slide" data-ride="carousel" id="myslide2">
+	  	<div class="carousel-inner">
+
+	     	<div class="carousel-item active" data-interval="2000">
+           		
+				<img class="img-fluid surimg" src="https://5.imimg.com/data5/YH/XG/EQ/SELLER-4480/3m-littmann-classic-iii-stethoscope-navy-blue-tube-500x500.jpg">
+				<img class="img-fluid surimg" src="https://image.shutterstock.com/image-photo/digital-glucometer-lancet-pen-on-260nw-793138105.jpg">
+				<img class="img-fluid surimg" src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1500&h=1500&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2020%2F06%2F16%2Fbumapo-waterproof-digital-body.jpg">
+				<img class="img-fluid surimg" src="https://5.imimg.com/data5/XL/BM/NW/SELLER-11599107/bp-3bg1-dr-morepen-blood-pressure-monitor-500x500.jpg">
+			
+			</div>
+		
+	     	<div class="carousel-item" data-interval="2000">
+           		
+				<img class="img-fluid surimg" src="https://5.imimg.com/data5/JS/XX/MY-4762877/single-use-syringe-250x250.jpg">
+				<img class="img-fluid surimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmMCjxLWVATaXnyZQHbn6ofm2EhMakVxMAzA&usqp=CAU">
+				<img class="img-fluid surimg" src="https://d27zlipt1pllog.cloudfront.net/pub/media/catalog/product/d/c/dch0005.jpg">
+				<img class="img-fluid surimg" src="https://www.circleone.in/images/products_gallery_images/Kit_Mockup_533_x_315.jpg">
+				
+			</div>
+		</div><!--carousel-inner end-->
+		
+		<ul class="carousel-indicators">
+     		<li data-target="#myslide2" data-slide-to="0" class="active img"></li>
+     		<li data-target="#myslide2" data-slide-to="1" class="img"></li>
+     		</ul>
+ 		<a href="#myslide2" data-slide="prev" class="carousel-control-prev">
+       		<span class="carousel-control-prev-icon"></span>
+    	</a>
+  
+    	<a href="#myslide2" data-slide="next" class="carousel-control-next">
+       		<span class="carousel-control-next-icon"></span>
+     	</a> 
+	</div><!--	carousel slide end-->
+	</div><!--row2 end-->
+</div><!--container2 end-->
+
+<div>
+	<br><br>
+	<h2 class="text-center">Our Top Selling Products</h2>
+	<br><br>
+	<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center x">
+						<img src="https://5.imimg.com/data5/JB/XD/VF/SELLER-57304931/azikem-1406057054-10007577-1--500x500.JPG" class="img-fluid ibot">
+						<div class="card-body">
+							<h3>Tablets</h3>
+							<p>Azikem-500</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				<div class="col-md-4">
+					<div class="card text-center x">
+						<img src="https://images-na.ssl-images-amazon.com/images/I/4188QUAOskL._SX466_.jpg" class="img-fluid ibot">
+						<div class="card-body">
+							<h3>Capsules</h3>
+							<p>Aldigesic SP Capsules</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				<div class="col-md-4">
+					<div class="card text-center x">
+						<img src="https://res.cloudinary.com/du8msdgbj/image/upload/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/v1578077523/udjyle4atrrjrrc4ausc.jpg" class="img-fluid ibot">
+						<div class="card-body">
+							<h3>Syrups</h3>
+							<p>Lycoenergy syrup</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				</div>
+				<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center x">
+						<img src="https://images-na.ssl-images-amazon.com/images/I/61tzTgaIG6L._SX466_.jpg" class="img-fluid ibot">
+						<div class="card-body">
+							<h3>Protein Powders</h3>
+							<p>Whey Protein</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				<div class="col-md-4">
+					<div class="card text-center x">
+						<img src="https://4.imimg.com/data4/HB/EQ/MY-794953/ceftriaxone-injection-500x500.jpg" class="img-fluid ibot">
+						<div class="card-body">
+							<h3>Parenteral Injections</h3>
+							<p>Ceftriaxone injection</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				<div class="col-md-4">
+					<div class="card text-center x">
+						<img src="https://4.imimg.com/data4/WA/FS/ANDROID-45854537/product-500x500.jpeg" class="img-fluid ibot">
+						<div class="card-body">
+							<h3>Ointments</h3>
+							<p>Omnigel pain relif</p>
+							<button class="btn btn-info"> Readmore...</button>
+						</div><!--card body end-->
+
+					</div><!--card end-->
+	
+				</div><!--col-md-6 end-->
+				
+			</div>
+
+		</div>
+		<br><br>
+		<hr>
+		<br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-4">
+				<div class="card box bg-success">
+					<div class="card-body">
+						<br>
+						Here at JMG we have all your needs covered.<br> 
+						And so we bring you a variety of products<br>
+						<br>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5">
+			</div>
+			<div class="col-md-4">
+				<div class="card box bg-light">
+					<div class="card-body">
+						<br>
+						<ul>
+						<li>Baby Care Products</li>
+						<li>Derma Skin Care</li>
+						<li>Women Hygiene/Pregnancy Test Kits </li>
+						<li>Personal/Hair Care Products</li>
+						<li>Acne/Night Creams and Gels</li>
+						<br></ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-4">
+				<div class="card box bg-info">
+					<div class="card-body">
+						<br> 
+						Your well being is our utmost priority.<br>
+						Our goal is to see our customers happy and satisfied.<br>
+						Join our family.<br>
+						<br>				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+			</div>
+		</div>
+	</div>
+		<br><br><br>
+
+<center>
+
+	<div class="container">
+		<h2 class="text-center">Baby Care Products</h2><br>
+		<div class="row">
+			<div class="col-md-2 c inner">
+				<img src="https://img3.junaroad.com/uiproducts/16896144/zoom_0-1580290583.jpg" class="img-fluid i4">
+				<p>Baby Wipes</p>		
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/3282264a.jpg" class="img-fluid i4">
+				<p>Milk Bottles (in 3 sizes)</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="img/babysoap.jpg" class="img-fluid i4">
+				<p>Baby Soaps</p>
+			</div>
+			<div class="col-md-2 c inner">	
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIVlGaVQ3sh-Hmvz2VBtPniDFVUPVxemKtxw&usqp=CAU" class="img fluid i4">
+				<p>Multiviatmin Drops for babies</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="img/babysyrup.jpg" class="img-fluid i4">
+				<p>Cough Syrups For Babies</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="img/asobiotic.png" class="img-fluid i4">
+				<p>Pri Probiotic drops for babies</p>
+			</div>
+		</div><br><br><br>
+		<h2 class="text-center">Derma Skin Care Products</h2><br>
+		<div class="row">
+			<div class="col-md-2 c inner">
+				<img src="https://res.cloudinary.com/du8msdgbj/image/upload/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/v1529930872/jxxlmvbcrwrcudri4qfc.jpg" class="img-fluid i4">
+				<p>Clobenate-GM Cream</p>
+			</div>
+			
+			<div class="col-md-2 c inner">
+				<img src="https://images-na.ssl-images-amazon.com/images/I/51EH7MIN1QL.jpg" class="img-fluid i4">
+				<p>Sunscreen</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://rukminim1.flixcart.com/image/312/312/jh3q6q80/soap/c/6/q/2-75-clinsol-soap-pack-of-2-leeford-original-imaf56ggxdvdsua6.jpeg?q=70" class="img-fluid i4">
+				<p>Clinsol Soap</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="img/kt5.jpg" class="img-fluid i4">
+				<p>Kt5 Derma Cream</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://5.imimg.com/data5/GX/IO/BO/SELLER-3040703/12-250x250.jpg" class="img-fluid i4">
+				<p>Dermigen NF Cream </p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://cdn.shopclues.com/images/thumbnails/81201/640/1/135480513-81201581-1521531795.jpg" class="img-fluid i4">
+				<p>Mela Bright Soap</p>
+			</div>
+		</div><br><br><br>
+		<h2 class="text-center">Women Hygiene/Pregnancy Test Kits</h2><br>
+		<div class="row">
+			<div class="col-md-2 c inner">
+				<img src="https://condombazaar.com/pub/media/catalog/product/cache/ec1131c962bb39c6b32c9fef29b811b5/p/r/pregakem_pregnancy_test_kit.jpg" class="img fluid i4">
+				<p>Pregakem Pregnancy Test</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://n2.sdlcdn.com/imgs/f/r/8/Growmax-VagiClean-Natural-Intimate-Wash-SDL856876857-1-01f8f.jpg" class="img-fluid i4">
+				<p>Clean Wash Growmax</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://n2.sdlcdn.com/imgs/j/i/h/7-Soft-XXL-40-Sanitary-SDL303713269-1-01fc8.jpg" class="img-fluid i4">
+				<p>Sanitary Pads</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="img/neem.jpg" class="img-fluid i4">
+				<p>Neem Soap for women</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="img/multi.jpg" class="img-fluid i4">
+				<p>Multivitamin Post Pregnancy syrup</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://www.pharmabizconnect.com/uploads/product/fe66a2e6e65ef0434dd9cf34b35465e1.jpg" class="img-fluid i4">
+				<p>Nari shuda Syrups</p>
+			</div>
+		</div><br><br><br>
+		<h2 class="text-center">Personal/Hair Care Products</h2><br>
+		<div class="row">
+			<div class="col-md-2 c inner">
+				<img src="https://growmaxmedicare.com/uploaded_gal_image/gal_thumbs/acnewell.jpg" class="img-fluid i4" class="img-fluid i4">
+				<p>Acne Soap </p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://rukminim1.flixcart.com/image/612/612/k13w4280/shampoo/n/d/q/200-dandruff-treatment-shampoo-zee-drugs-original-imafkrgnzyxqxywy.jpeg?q=70" class="img-fluid i4" class="img-fluid i4">
+				<p>keto soap</p>	
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://in.all.biz/img/in/catalog/706525.jpg" class="img-fluid i4">
+				<p>ketoford soap</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://cpimg.tistatic.com/00396002/b/5/tr:w-300/Denon-Shampoo-Soap.jpg" class="img-fluid i4">
+				<p>denon soap</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://img2.exportersindia.com/product_images/bc-full/dir_104/3093884/parth-aloevera-with-neem-soap-1517311753-3617493.jpeg" class="img-fluid i4">
+				<p>Aloe Vera Soap </p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://rukminim1.flixcart.com/image/800/800/jw9ke4w0/hair-oil/y/z/e/300-scabvent-lotion-scabent-original-imafgzneujznybec.jpeg?q=90" class="img-fluid i4">
+				<p>Scabvent Lotion</p>
+			</div>
+		</div><br><br><br>
+		<h2 class="text-center">Acne/Night Creams and Gels</h2><br>
+		<div class="row">
+			<div class="col-md-2 c inner">
+				<img src="https://rukminim1.flixcart.com/image/300/300/jh2aqvk0/face-treatment/v/d/x/25-clinsol-gel-pack-of-4-leeford-original-imaf5637kdapgkuf.jpeg?q=90" class="img-fluid i4">
+				<p>Clinsol Gel</p>
+
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://5.imimg.com/data5/SL/SJ/OG/ANDROID-93974080/product-jpeg-500x500.jpg" class="img-fluid i4">
+				<p>Clear Skin Cream</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://www.azinehealthcare.com/wp-content/uploads/2018/09/quinometcream.png" class="img-fluid i4">
+				<p>Quinomet Cream</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://rukminim1.flixcart.com/image/352/352/jvv9zm80/face-wash/v/2/m/200-skin-shine-charcoal-face-wash-pack-of-2-knoll-original-imafgzmsvkveuyuz.jpeg?q=70" class="img-fluid i4">
+				<p>Charcoal Facewash</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://rukminim1.flixcart.com/image/800/800/jkcwakw0/body-skin-treatment/v/x/9/15-skin-cream-5-pack-dermiford-original-imaf7pmrdryfphxn.jpeg?q=90" class="img-fluid i4">
+				<p>New Dermiford Cream</p>
+			</div>
+			<div class="col-md-2 c inner">
+				<img src="https://www.netforhealth.com/wp-content/uploads/2017/12/NAFCE.jpeg" class="img-fluid i4">
+				<p>Nface Cream</p>
+			</div>
+		</div>
+	</div>
+	</div><br><br><br><br><br>
+	
+</center>
+
+<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-md-4">
+				<br>
+		  	    <h1 class="text-light">CONTACT US</h1>
+		  	    <hr>
+		  	    <h4>Address:</h4> Shatabdi Complex, Shop, G-5,  Huzrat Pull,  Lashkar,  Gwalior,  Madhya Pradesh 474001<br><br>
+				<h4>Hours:</h4> 11:00 a.m.- 7:30 p.m.<br><br>
+				<h4>Phone:</h4> 9144480962, 9826236830
+				<br><br>
+				<a href="https://m.facebook.com/HealthandmedicineatJMG/?tsid=0.3179322746523827&source=result">
+					<i class="fa fa-facebook-official" style="color:white;font-size: 30px;"></i>
+				</a>
+				&nbsp;&nbsp;
+				<a href="https://www.instagram.com/jaimaagumano/">
+					<i class="fa fa-instagram" style="color:white;font-size: 30px;"></i>
+				</a>
+				&nbsp;&nbsp;
+				<a href="https://wa.link/6hjrok">
+				 	<i class="fa fa-whatsapp" aria-hidden="true" style="color:white;font-size: 30px;"> </i>
+				 </a>
+				 &nbsp;&nbsp;
+				 <a href="tel:9144480962">
+				 	<i class="fa fa-phone" aria-hidden="true" style="color:white;font-size: 30px;"></i>
+				 </a>
+				 &nbsp;&nbsp;
+				 <a href="mailto:sales.jaimaagumano@gmail.com">
+				 	<i class="fa fa-google" aria-hidden="true" style="color:white;font-size: 30px;"></i>
+				 </a>
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				<br>
+				<h1 class="text-light">Explore</h1>
+				<hr>
+				<a href="index.html" class="text-light">HOME</a><br><br>
+				<a href="about.html" class="text-light">ABOUT US</a><br><br>
+				<a href="ourproducts.html" class="text-light">OUR PRODUCTS</a><br><br>
+				<a href="brands.html" class="text-light">BRANDS AVAILABLE</a><br><br>
+				<!--a href="" class="text-light">DISEASE AND ITS CURE</a><br><br>
+				<a href="" class="text-light">OUR NETWORK</a><br><br-->
+				<a href="contact.html" class="text-light">CONTACT US</a><br><br>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="mymodel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-dark lg">
+        <h5 class="modal-title text-light">Connect with us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h3> JMG team welcomes you!</h3>
+       <a style="color: black;" href="tel:9144480962" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-2179" src="https://i.pinimg.com/originals/20/b6/86/20b6860e2f5560e6fae086a51051bdbc.gif" alt="" width="100" height="75">Call us to place an order<br>
+		</a>
+		<a style="color: black;" href="mailto:sales.jaimaagumano@gmail.com" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-2179" src="https://i.pinimg.com/originals/7e/69/ec/7e69eca344ca1465da94d698ded08e8e.gif" alt="" width="100" height="75">Leave a message<br>
+		</a>
+		<a style="color: black;" href="https://www.google.com/search?q=jai+maa+gumano+medico+%26+surgico%2C+huzrat+pull%2C+lashkar%2C+gwalior%2C+madhya+pradesh&oq=jai+&aqs=chrome.1.69i57j35i39l2j69i59j0i67i457j69i60j69i61j69i60.1899j0j4&sourceid=chrome&ie=UTF-8#lrd=0x3976c5cd1251880d:0x16f46a194cf92c39,1,,," target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-2179" src="https://raw.githubusercontent.com/Monte9/react-native-ratings/master/resources/airbnb_ratings.gif" alt="" width="100" height="75"> Rate us on google <br>
+		</a>
+		</ul>
+		</div>
+    </div>
+  </div>
+</div>
+	<script type="text/javascript">
+  
+  var preloader=document.getElementById('loading');
+
+  function myFunction(){
+    preloader.style.display= 'none';
+  }
+  
+</script>
+	</body>
+</html>

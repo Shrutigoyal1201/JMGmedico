@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+
+	<!-- CSS only -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="icon" type="" href="img/logo10.jpg" />
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+	<style type="text/css">
+		p
+		{
+			text-align: justify;
+			color: #6c757d;
+			font-size: 18px;
+			line-height: 40px;
+		}
+		.n{
+        background-image: linear-gradient(to right,#1e3131,#69d6d6);
+     	}
+		.navbar-nav li
+		{
+		padding: 0 10px;
+		}
+		.navbar-nav li a
+		{
+		margin-right: 15px;
+		font-weight: 600;
+		float: right;
+		text-align: left;
+		}
+		.logo
+		{
+			margin:-19% -25%;
+		}
+		.dropdown:hover>.dropdown-menu 
+		{
+		  display: block;
+		  }
+
+		.dropdown>.dropdown-toggle:active 
+		{
+		  /*Without this, clicking will make it sticky*/
+		    pointer-events: none;
+		}
+		.mis
+		{
+			background-color: #daf0fe;
+		}
+		.team
+		{
+			background-color: #adc7d3;
+			padding-left: 20px;
+		}
+		.i /*class for team images*/
+		{
+			width: 350px;
+		}
+		.i1
+		{
+			box-shadow: 0 5px 20px;
+			width: 400px;
+		}
+		.map
+		{
+			box-shadow: 0 5px 20px;
+			width:600px; 
+			height:450px;
+		}
+		body{
+
+	   	 font-family:arial,helvetica;
+	   }
+	   h1{
+	   	  text-align: left;
+	   	  line-height: 45px;
+	   }
+	   h1 span{
+	   	 color: red;
+	   }
+	   .box{
+	   	box-shadow: 0 5px 20px;
+	   	width: 330px;
+	   	border:1px solid;
+	   	border-color: grey;
+	   	margin: 10px auto;
+	   	position: relative;
+	   	overflow: hidden;
+	   
+	   }
+		.box img{
+	   	  width: 100%;
+	   	  height: auto;
+	   	  transition: all 0.4s;
+	   }
+	   .box:hover img{
+
+	   	 transform: scale(0);
+	   }
+		.box .box-content{
+
+	   	   background:black;
+	   	   color: #fff;
+	   	   position: absolute;
+	   	   left: 0;
+	   	   top:0;
+	   	   width: 100%;
+	   	   height: 100%;
+	   	   padding: 30px;
+	   	   box-sizing: border-box;
+	   	   transform:scale(0) rotate(-180deg);
+	   	   opacity: 0;
+	   	   transition: all 0.4s;
+	   }
+		.box:hover .box-content{
+	   	  opacity: 1;
+	   	  transform: scale(1) rotate(0deg);
+	   	  transition-delay: 0.2s;
+	   }
+		@media(max-width: 700px)
+		{
+			p
+		{
+			text-align: justify;
+			color: #6c757d;
+			font-size: 13px;
+			line-height: 20px;
+		}
+		.map
+		{
+			width: 300px;
+			height: 330px;
+		}
+			h1
+		{
+			text-align: center;
+			font-size: 28px;
+		}
+		h2{
+			text-align: center;
+			font-size: 14px;
+		}
+		h4{
+			text-align: center;
+			font-size: 20px;
+		}
+		.b
+		{margin-top: 65px;
+    	 margin-bottom: 20px;
+		}
+		}
+		
+		.footer
+		{ 
+			background-image:linear-gradient(to right,#69d6d6,#1e3131);
+			color: #fff;
+			padding: 2% 10%;
+
+		}
+	
+	</style>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top n">
+		<a href="index.html" class="navbar-brand">
+			<img class="img-fluid logo" src="img/logo10.jpg" width="65px">
+     		
+   		</a><!--anchor tag end-->
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+
+	<div class="collapse navbar-collapse" id="a">
+
+	<ul class="navbar-nav ml-auto">
+		<li>
+			<a href="index.html" class="nav-link text-light">HOME</a>
+		</li>
+		<li>
+			<a href="about.html" class="nav-link text-light">ABOUT US</a>
+		</li>
+		<li>
+			<a href="ourproducts.html" class="nav-link text-light">OUR PRODUCTS</a>
+		</li>
+		<li>
+			<a href="brands.html" class="nav-link text-light">BRANDS AVAILABLE</a>
+		</li>
+		<!--li>
+			<a href="cure.html" class="nav-link">DISEASE AND ITS CURE</a>
+		</li>
+		<li>
+			<a href="network.html" class="nav-link">OUR NETWORK</a>
+		</li-->
+		<li>
+			<a href="contact.html" class="nav-link text-light">CONTACT US</a>
+		</li>
+		<li class="nav-item dropdown">
+        	<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          	CONNECT NOW!
+        	</a>
+			<div class="dropdown-menu"aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="tel:9144480962">
+				 	<i class="fa fa-phone" aria-hidden="true" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Call us
+				</a>
+				<a class="dropdown-item" href="https://wa.link/6hjrok">
+					<i class="fa fa-whatsapp" aria-hidden="true" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Chat with us
+				</a>
+				<a class="dropdown-item" href="https://www.instagram.com/jaimaagumano/">	
+					<i class="fa fa-instagram" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Join us on instagram
+				</a>
+				<a class="dropdown-item" href="https://m.facebook.com/HealthandmedicineatJMG/?tsid=0.3179322746523827&source=result">
+					<i class="fa fa-facebook-official" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Join us on facebook	
+				</a>
+				<a class="dropdown-item" href="mailto:sales.jaimaagumano@gmail.com">
+				 	<i class="fa fa-google" aria-hidden="true" style="color:black;font-size: 30px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Send us an Email
+				</a>
+			</div>
+		</li>
+	</ul><!--list tag end-->
+	</div>	
+	</nav><!--nav end-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-10">
+				<img src="https://ichse.ac.in/uploads/1568657298vision-mission-banner.png" class="w-100 b">
+			</div>
+		</div>
+		<div class="row" style="height: 500px;">
+			<div class="col-md-2 mis">
+			</div>
+			<div class="col-md-8">
+				<h1>OUR MISSION & VISION</h1><br>
+				<p>
+					Our mission is to expand and establish a firm foothold in the pharmaceutical industry. Currently we are aiming at increasing our online presence so that we can reach out to people all across the country. 
+					We have a vision of a prosperous INDIA with top medical facilities.
+					Our goal is to provide our customers a one-stop destination, servicing to the most remotest parts of India. We are a wholesale outlet store supplying allopathy and ayurvedic medicines and personal care products at the most affordable price with no compromises in the quality.We have already served more than a million people over the course of our 33 years long journey.To see our customers happy and satisfied is our utmost priority. The belief that customer's satisfaction is as important as our products and services, have helped us garner a vast base of customers, which continues to grow by the day. We employ individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, we aim to expand our line of products and services and cater to a larger client base. 
+				</p>
+			</div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-md-8">	
+				<img src="https://www.iengineksa.com/wp-content/uploads/2018/01/Banner_OurTeam.jpg" class="w-100">
+			</div>
+			<div class="col-md-4 team">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-6">
+				<br><br>
+				<h1>MEET THE TEAM</h1>
+			</div>
+			<div class="col-md-5">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-6">
+				<br><br>
+				<h4 >Founder & Director-Ajay Goyal Basu</h4>
+				<br>
+				<p style="text-align: justify;"> Mr. Ajay Goyal Basu, the founder and director of JMG (Jai Maa Gumano Medico & Surgico) is a qualified stockist and pharmacist serving the mankind since 1987. He, who laid the roots of this very establishment 33 years back, is a well trained chemist and license holder. In his career in the pharmaceutical industry he has served hundreds and thousands of people and counting more.
+				He is an ethical practitioner and expertise of medicine who will continue to serve for the health and betterment of the people with the blessings of Goddess Maa Gumano,the female deity worshiped by our clan. 
+				     </p>
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-4">
+				<center>
+		<div class="box">
+			<img src="img/pappa.jpg"  class="img-fluid i" alt="222">
+			<div class="box-content text-light">
+				<h4>Mr.Ajay Goyal Basu</h4>
+				<br>
+				<h6 style="text-align: justify;font-size: 12px">Mr.Ajay is a well known pharmacist but along with that he is an active social servant. He served as the president of Agrawal Samaj back in 2013-16. He started his journey as a speaker, stage manager and operator. As a speaker, he has hosted 125+ social events (Social matchmaking, underpriveledged welfare, communal events, etc) held all across the country and counting more. He is a man of few words but when he speaks on stage his charismatic personality renders everyone around him in complete awe and a sense of admiration.<br>You can join him on facebook - <a href="https://www.facebook.com/ajay.goyal.5059601">Ajay Goyal Basu</a> </h6>
+	        </div>	
+		</div>
+			</center>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-6">
+				<br><br><br>
+				<h4 >Operator- Shubham Yatharth Goyal</h4>
+				<br>
+				<p style="text-align: justify;"> Mr. Shubham Yatharth Goyal is the young blood of the family carrying old values with new vision to serve people with physical and online presence. He is a degree holder in B.pharma and has an experience of about 6 years at JMG with additional exposure to medicine manufacturing and laboratory skills aqcuired during internship at huge pharamaceutical firms like Hind Pharma and others. He is a visionary and an enthusiast who strives to carry forward the family name and business.</p>
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-4 col-sm-3">
+				<center>
+				
+		<div class="box">
+				<img src="img/shubham1.jpg"  class="img-fluid i" alt="222">
+			<div class="box-content text-light">
+				<h4>Shubham Yatharth Goyal </h4>
+				<br>
+				<h6 style="text-align: justify;font-size: 12px">Mr. Shubham is an emerging entreprenuer with keen interest in his chosen field but apart from being a business man, he is also a poet and has a huge fanbase on<a href="https://www.yourquote.in/shubham-yatharth-yq-qlj6/quotes" class="text-light"> YourQuote </a>. He has written 2.5k+ quotes and shayaris. His quotes are much appreciated for the elegance, the poise, the sophistication they reflect. For those of you who are into motivational quotes & hindi shayaris, here is a little treat for you. Go check out his page - <a href="https://www.yourquote.in/shubham-yatharth-yq-qlj6/quotes"> Shubham Yatharth YQ</a>.</h6>
+				<br><br>
+
+	        </div>	
+		</div> 
+				</center>
+			</div>
+		</div>
+		<br><br>
+		<div class="row" style="height: 200px;">
+			<div class="col-md-1" style="background-color:#51E2F5;">
+			</div>
+			<div class="col-md-1" style="background-color:#9DF9EF;">
+			</div>
+			<div class="col-md-3" style="background-color:#EDF7F6;">
+			</div>
+			<div class="col-md-3" style="background-color:#FFABB6">
+			</div>
+			<div class="col-md-4" style="background-color:#A28089">
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-5">
+				<center>
+				<br><br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.9643058646284!2d78.15252451502995!3d26.19783938344067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c5cd1251880d%3A0x16f46a194cf92c39!2sJai%20Maa%20Gumano%20Medico%20%26%20Surgico!5e0!3m2!1sen!2sin!4v1602237514641!5m2!1sen!2sin"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+				</center>
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-4">
+				<br><br>
+				<h1>WHEREABOUTS</h1><br><br>
+				<p>Our outlet is based in Gwalior, a major city in the central Indian state of Madhya Pradesh widely known for its majestic monuments, swamped with places of historical significance and exemplary architecture.
+				In Gwalior, our establishment occupies a prominent location at Shatabdi Complex, Huzrat Pull. It is an effortless task in commuting to our establishment as there are various modes of transport readily available.</p>
+				<br><br><br>
+			</div>
+		</div>
+		
+		<div class="row" style="height: 200px;">
+			<div class="col-md-4" style="background-color:#51E2F5;">
+			</div>
+			<div class="col-md-3" style="background-color:#9DF9EF;">
+			</div>
+			<div class="col-md-3" style="background-color:#EDF7F6;">
+			</div>
+			<div class="col-md-1" style="background-color:#FFABB6">
+			</div>
+			<div class="col-md-1" style="background-color:#A28089">
+			</div>
+		</div>
+		<br><br><br>
+		<div class="row">
+			<div class="col-md-4 col-sm-2">
+				<center>
+					<br>
+				<img src="img/camp.jpg" class="img-fluid i1">
+				</center>
+			</div>
+			<div class="col-md-7">
+				<br><br>
+				<h2> FREE OF COST MEDICINE DISTRIBUTION CAMPAGIN</h2><br>
+				<p>We marked the beginning of the year 2020 with a new year resolution of helping the mankind in whatever way possible and so we initiated a free of cost medicine distribution campaign. 
+				The maneuver began on Jan 1st, 2020 and stayed active for about 3 months. 
+				With a vision to help the underprivileged we distributed free OTC products.
+				It was our absolute pleasure serving and receiving the blessings of  250+ people through this heavenly journey. 
+				Due to the very unexpected spread of covid-19 towards the end of march, 2020 and recurrent lockdowns soon after we had to stop the campaign but are willing and looking forward to resuming it once the situations get back to being normal and safe.
+									
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br>
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-md-4">
+				<br>
+		  	    <h1 class="text-light" style="text-align: left">CONTACT US</h1>
+		  	    <hr>
+		  	    <h5>Address:</h5> Shatabdi Complex, Shop,G-5, Huzrat Pull, Lashkar, Gwalior, Madhya Pradesh 474001<br><br>
+				<h5>Hours:</h5> 11:00 a.m.- 7:30 p.m.<br><br>
+				<h5>Phone:</h5> 9144480962, 9826236830
+				<br><br>
+				<a href="https://m.facebook.com/HealthandmedicineatJMG/?tsid=0.3179322746523827&source=result">
+					<i class="fa fa-facebook-official" style="color:white;font-size: 30px;"></i>
+				</a>
+				&nbsp;&nbsp;
+				<a href="https://www.instagram.com/jaimaagumano/">
+					<i class="fa fa-instagram" style="color:white;font-size: 30px;"></i>
+				</a>
+				&nbsp;&nbsp;
+				<a href="https://wa.link/6hjrok">
+				 	<i class="fa fa-whatsapp" aria-hidden="true" style="color:white;font-size: 30px;"> </i>
+				 </a>
+				 &nbsp;&nbsp;
+				 <a href="tel:9144480962">
+				 	<i class="fa fa-phone" aria-hidden="true" style="color:white;font-size: 30px;"></i>
+				 </a>
+				 &nbsp;&nbsp;
+				 <a href="mailto:sales.jaimaagumano@gmail.com">
+				 	<i class="fa fa-google" aria-hidden="true" style="color:white;font-size: 30px;"></i>
+				 </a>
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				<br>
+				<h1 class="text-light" style="text-align: left">Explore</h1>
+				<hr>
+				<a href="index.html" class="text-light">HOME</a><br><br>
+				<a href="about.html" class="text-light">ABOUT US</a><br><br>
+				<a href="ourproducts.html" class="text-light">OUR PRODUCTS</a><br><br>
+				<a href="brands.html" class="text-light">BRANDS AVAILABLE</a><br><br>
+				<!--a href="" class="text-light">DISEASE AND ITS CURE</a><br><br>
+				<a href="" class="text-light">OUR NETWORK</a><br><br-->
+				<a href="contact.html" class="text-light">CONTACT US</a><br><br>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
